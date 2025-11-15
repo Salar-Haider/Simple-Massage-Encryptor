@@ -6,7 +6,7 @@
 
 ## 🧐 Overview
 
-This project is a simple desktop application built in Java. It allows you to **encrypt all English letters (both lower‑case and upper‑case) and the full stop symbol (.)**. The application provides a form‑based interface to input your message and see the encrypted output.
+This project is a simple desktop application built in Java. It allows you to **encrypt and decrypt all English letters (both lower‑case and upper‑case) and the full stop symbol (.)**. The application provides a form‑based interface to input your message and see the encrypted output.
 
 It’s ideal if you’re learning encryption basics, exploring GUI design in Java, or just want a simple tool for “text scrambling”.
 
@@ -16,6 +16,7 @@ It’s ideal if you’re learning encryption basics, exploring GUI design in Jav
 
 * Encrypts **all English letters** (a‑z and A‑Z).
 * Encrypts the **full stop symbol (.)**.
+* Aslo decryts.
 * Simple GUI (form) built in Java (likely using Swing/AWT).
 * Easy to extend: you can modify it to include digits, punctuation, other symbols.
 * Good for educational use and learning/enhancing encryption logic.
@@ -58,7 +59,8 @@ It’s ideal if you’re learning encryption basics, exploring GUI design in Jav
 * Enter the plain text message you want to encrypt.
 * Click the “Encrypt” button (or whatever trigger is set).
 * View the encrypted result in the designated output area.
-* You can modify the code to add a “Decrypt” function or support additional characters.
+* Enter the encrypted text in the decrytion box and press decrypt button to view the decrypted text.
+
 
 ---
 
@@ -96,7 +98,6 @@ Contributions are welcome! If you’d like to improve the app (add features, fix
 
 Suggested enhancements:
 
-* Add decryption support.
 * Extend to digits/special characters.
 * Add configurable encryption keys/shifts.
 * Improve GUI (layout, theming).
